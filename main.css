@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap);
+
+body {
+    background-color: #ACC8E5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: #112A46;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 25px;
+}
+
+a:hover {
+    color: #3d8b8a;
+}
+
+img {
+    width: 500px;
+}
