@@ -7,9 +7,8 @@ Fonts are separated by a & */
   /* change the values below to your colors from your palette */
   --primary-color: #40221B;
   --secondary-color: #224930;
-  --accent1-color: #693212;
+  --accent1-color: #B5A195;
   --accent2-color: #f2f2f2;
-  --accent3-color: #7FC398;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Courgette";
@@ -23,8 +22,8 @@ Fonts are separated by a & */
   --paragraph-background-color: #224930;
   --nav-link-color: #f2f2f2;
   --nav-background-color: #40221B;
-  --nav-hover-link-color: #f2f2f2;
-  --nav-hover-background-color: #693212;
+  --nav-hover-link-color: #000000;
+  --nav-hover-background-color: #B5A195;
 }
 
 
