@@ -15,14 +15,14 @@ nav, footer {
 }
 
 a {
-    color: #112A46;
+    color: #000000;
     text-decoration: none;
     font-size: 20px;
     padding: 25px;
 }
 
 a:hover {
-    color: #3d8b8a;
+    color: #FFFFFF;
 }
 
 img {
