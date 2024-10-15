@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
 body {
-    background-color: #FFFFFF;
+    background-color: #f5f5dc;
     font-family: Lexend, Nunito, Lato, sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 nav, footer {
     background-color: #112A46;
+    color: #FFFFFF;
     text-align: center;
     display: flex;
     justify-content: space-around;
+    margin: 0 auto;
 }
 
 a {
@@ -27,5 +30,14 @@ a:hover {
 }
 
 img {
-    width: 40%;
+    width: 20%;
+    border-radius: 5%;
+    display: block;
+    margin: 0 auto;
+}
+
+main p {
+    width: 33%;
+    margin: 30px auto;
+    display: inline-block;
 }
