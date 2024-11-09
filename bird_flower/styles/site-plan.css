@@ -7,8 +7,8 @@ Fonts are separated by a | */
   /* change the values below to your colors from your palette */
   --primary-color: #134472;
   --secondary-color: #cdb4db;
-  --accent1-color: #ffafcc;
-  --accent2-color: #d3ffff;
+  --accent1-color: #d3ffff;
+  --accent2-color: #ffafcc;
 
   /* change the values below to your chosen font(s) */
   --heading-font: Coiny;
@@ -50,7 +50,7 @@ h2 {
 hr {
   height: 3px;
   margin: 35px 0;
-  background: var(--accent1-color);
+  background: var(--accent2-color);
 }
 header {
   padding: 1em;
@@ -60,6 +60,9 @@ header {
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
+}
+.resize-width {
+  width: 100%;
 }
 
 p {
