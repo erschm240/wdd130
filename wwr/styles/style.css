@@ -188,6 +188,72 @@ h2 {
     padding-bottom: 15px;
 }
 
+/* Styling for blog page */
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 50px;
+}
+
+.table-contents {
+    grid-column: 4/5;
+    grid-row: 1/4;
+    background-color: #2A563A;
+    border-radius: 10px;
+    color: white;
+    margin-left: 25px;
+    margin-bottom: -150px;
+}
+
+.table-contents a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.table-contents a:hover {
+    background-color: #81C198;
+    color: black;
+
+}
+
+.post {
+    background-color: #B5A195;
+    margin-right: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.post-img {
+    width: 100%;
+}
+
+.post-text {
+    margin: 30px;
+}
+
+.post p {
+    text-align: left;
+}
+
+#booking {
+    grid-column: 1/4;
+    margin-bottom: 25px;
+}
+
+#highlights {
+    grid-column: 1/4;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+#encounters {
+    grid-column: 1/4;
+    margin-top: 25px;
+    margin-bottom: -150px;
+}
+
 footer {
     background-color: #40221B;
     color: #f2f2f2;
