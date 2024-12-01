@@ -45,7 +45,7 @@ nav a:hover {
 /* Home page grid */
 #hero {
     display: grid;
-    grid-template-columns: 5% 90% 5%;
+    grid-template-columns: 12% 76% 12%;
 }
 
 #hero-box {
@@ -64,7 +64,7 @@ nav a:hover {
     grid-row: 2/3;
     text-align: center;
     color: #134472;
-    font-size: 3.5em;
+    font-size: 3.1em;
 }
 
 .home-grid {
