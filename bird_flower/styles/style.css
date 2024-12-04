@@ -7,6 +7,8 @@ body {
     padding: 0;
 }
 
+/* Website logo and navbar styles */
+
 header {
     background-color: #cdb4db;
     display: grid;
@@ -45,7 +47,7 @@ nav a:hover {
     padding: 15px;
 }
 
-/* Home page grid */
+/* Home page grid and styles */
 #hero {
     display: grid;
     grid-template-columns: 12% 76% 12%;
@@ -91,6 +93,131 @@ nav a:hover {
     width: 100%;
 }
 
+/* Bird-Flower Facts page grid and styles */
+.fact-card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 70px;
+    background-color: #ffafcc;
+    border-radius: 15px;
+    margin: 70px;
+    padding: 50px;
+    padding-top: 0;
+    justify-items: center;
+    align-items: center;
+}
+
+.card-heading {
+    grid-column: 1/3;
+    margin-bottom: -25px;
+    font-size: 2em;
+}
+
+.fact-card-grid img {
+    width: 100%;
+    display: inline;
+}
+
+.bird-text {
+    margin-right: 50px;
+}
+
+.flower-text {
+    margin-left: 50px;
+    text-align: right;
+}
+
+#notice-text {
+    margin: 50px 100px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Contact page grid and styles */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 70px;
+}
+
+.contact-grid h1 {
+    margin-left: -70px;
+    font-size: 6em;
+    text-align: center;
+}
+
+.contact-grid img {
+    width: 100%;
+}
+
+#contact-p {
+    grid-column: 1/3;
+    margin: 50px 100px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#form {
+    justify-items: center;
+    align-items: center;
+    grid-column: 1/3;
+}
+
+form {
+    background-color: #ffafcc;
+    width: 95%;
+    padding: 25px;
+    justify-items: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#form-img {
+    width: 150px;
+}
+
+#form-elements {
+    width: 90%;
+}
+
+label, input, textarea, button {
+    font-family: Lexend, Helvetica, sans-serif;
+    display: block;
+    border-radius: 10px;
+    border: none;
+    margin: 0 auto;
+    padding: 20px;
+    width: 90%;
+}
+
+label {
+    padding-bottom: 10px;
+    margin-left: 16px;
+}
+
+input, textarea {
+    font-style: italic;
+}
+
+textarea {
+    padding-top: 10px;
+    max-width: 1061px;
+    min-width: 1061px;
+    min-height: 33px;
+}
+
+button {
+    margin-top: 30px;
+    width: 13%;
+    padding: 10px;
+    font-size: 1em;
+}
+
+/* Website footer styles */
 footer {
     display: grid;
     grid-template-columns: 33% repeat(3, 1fr);
@@ -136,48 +263,7 @@ footer p:nth-of-type(3) {
     padding: 15px;
 }
 
-/* Bird-Flower Facts page grid */
-.fact-card-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 70px;
-    background-color: #ffafcc;
-    border-radius: 15px;
-    margin: 70px 70px;
-    padding: 50px;
-    padding-top: 0;
-    justify-items: center;
-    align-items: center;
-}
-
-.card-heading {
-    grid-column: 1/3;
-    margin-bottom: -25px;
-    font-size: 2em;
-}
-
-.fact-card-grid img {
-    width: 100%;
-    display: inline;
-}
-
-.bird-text {
-    margin-right: 50px;
-}
-
-.flower-text {
-    margin-left: 50px;
-    text-align: right;
-}
-
-#notice-text {
-    margin: 50px 100px;
-    justify-items: center;
-    align-items: center;
-    text-align: center;
-    font-size: 1.2em;
-}
-
+/* Dynamic styles for a 900px wide screen */
 @media screen and (max-width: 900px) {
     .home-grid {
         display: block;

@@ -18,23 +18,27 @@
         </nav>
     </header>
     <main class="contact-grid">
-        <h1 id="contact-h1">Contact Me!</h1>
+        <h1>Contact Me!</h1>
         <img src="images/letter.jpg" alt="Photo of a handwritten letter with a black old-fashioned pen and purple flowers on top | Author: Debbie Hudson">
-        <p class="contact-p">
+        <p id="contact-p">
             Have questions about my site? Suggestions to improve my facts? Want to know more about my work? Fill out this form and send me a message.
         </p>
-        <form action="#" method="post">
-            <img id="form-img" src="images/mail-icon.png" alt="black mail letter icon">
-            <label for="name">Name*:</label>
-            <input type="text" id="name" name="user_name" required placeholder="John Doe">
-            <label for="mail">Email Address*:</label>
-            <input type="text" id="mail" name="email" required placeholder="example@this.com">
-            <label for="msg-title">Message Title*:</label>
-            <input type="text" id="msg-title" name="user_message_title" required placeholder="Title...">
-            <label for="msg">Message*:</label>
-            <textarea name="user_message" id="msg" required placeholder="What would you like to say?"></textarea>
-            <button type="submit">Submit</button>
-        </form>
+        <div id="form">
+            <form action="#" method="post">
+                <img id="form-img" src="images/mail-icon.png" alt="black mail letter icon">
+                <div id="form-elements">
+                    <label for="name">Name*:</label>
+                    <input type="text" id="name" name="user_name" required placeholder="Ex: John Doe">
+                    <label for="mail">Email Address*:</label>
+                    <input type="text" id="mail" name="email" required placeholder="example@this.com">
+                    <label for="msg-title">Message Title*:</label>
+                    <input type="text" id="msg-title" name="user_message_title" required placeholder="Title...">
+                    <label for="msg">Message*:</label>
+                    <textarea name="user_message" id="msg" required placeholder="What would you like to say?"></textarea>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
     </main>
     <footer>
         <p>Northwest State Birds and Flowers &copy; 2024 - Emma Schmitz</p>
