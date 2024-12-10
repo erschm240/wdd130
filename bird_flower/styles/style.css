@@ -209,9 +209,9 @@ input, textarea {
 
 textarea {
     padding-top: 10px;
-    /* max-width: 1061px;
-    min-width: 1061px;
-    min-height: 33px; */
+    max-width: 820.8px;
+    min-width: 820.8px;
+    min-height: 33px;
 }
 
 button {
