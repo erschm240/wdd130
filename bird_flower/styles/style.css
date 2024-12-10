@@ -173,7 +173,7 @@ nav a:hover {
 
 form {
     background-color: #ffafcc;
-    width: 95%;
+    width: 960px;
     padding: 25px;
     justify-items: center;
     align-items: center;
@@ -185,7 +185,7 @@ form {
 }
 
 #form-elements {
-    width: 90%;
+    width: 95%;
 }
 
 label, input, textarea, button {
@@ -209,9 +209,9 @@ input, textarea {
 
 textarea {
     padding-top: 10px;
-    max-width: 1061px;
+    /* max-width: 1061px;
     min-width: 1061px;
-    min-height: 33px;
+    min-height: 33px; */
 }
 
 button {
@@ -219,6 +219,12 @@ button {
     width: 13%;
     padding: 10px;
     font-size: 1em;
+    transition: all 0.3s;
+}
+
+button:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transform: translateY(-5px);
 }
 
 /* Website footer styles */
@@ -265,6 +271,11 @@ footer p:nth-of-type(3) {
 
 .social img {
     padding: 15px;
+    transition: all 0.3s;
+}
+
+.social img:hover{
+    transform: translateY(-5px);
 }
 
 /* Dynamic styles for a 900px wide screen */
