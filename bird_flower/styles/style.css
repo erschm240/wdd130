@@ -190,6 +190,7 @@ form {
 
 label, input, textarea, button {
     font-family: Lexend, Helvetica, sans-serif;
+    font-size: 0.7em;
     display: block;
     border-radius: 10px;
     border: none;
